@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perform — Multimedia | Prince</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body style="--page-color: var(--c-perform);">
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a href="../index.html" class="wordmark">PRINCE</a>
+  <div class="header-right">
+    <button class="audio-toggle" id="audioToggle" type="button" aria-pressed="false">
+      <span class="audio-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="audio-toggle-label mono">SOUND OFF</span>
+    </button>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="ugc.html">Connect</a>
+      <a href="animation.html">Create</a>
+      <a href="multimedia.html">Perform</a>
+      <a href="informatics.html">Build</a>
+      <a href="about.html">About</a>
+      <a href="about.html#contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+  <audio id="ambientAudio" loop preload="none">
+    <!-- <source src="../assets/audio/ambient-loop.mp3" type="audio/mpeg"> -->
+  </audio>
+</header>
+
+<main>
+  <!-- Own photo? class="has-image" style="--bg-image:url('../assets/images/perform-banner.jpg')" -->
+  <div class="section-banner section-banner--perform">
+    <span class="section-banner-freq">101.5</span>
+  </div>
+
+  <section class="page-hero">
+    <p class="eyebrow mono">CH.03 — 101.5 FM</p>
+    <h1 class="page-title">Perform</h1>
+    <p class="page-sub">
+      Music, DJ sets, voice acting and photography — an experimental
+      playground. Not a finished discography, a documented journey.
+    </p>
+  </section>
+
+  <section class="status-block">
+    <div class="status-card" data-reveal>
+      <span class="status-tag mono">EXPERIMENTS — LIVE</span>
+      <h2>Sound is still being tuned.</h2>
+      <p>
+        Music, mixes and voice work will be embedded here directly, with
+        links out to Spotify, SoundCloud and YouTube as those channels grow.
+      </p>
+    </div>
+
+    <div class="grid-preview" data-reveal>
+      <div class="grid-preview-item">Music — experiments in sound</div>
+      <div class="grid-preview-item">DJ — sets &amp; mixes</div>
+      <div class="grid-preview-item">Voice — acting &amp; narration</div>
+      <div class="grid-preview-item">Camera — photography &amp; video</div>
+      <div class="grid-preview-item">MC / performance</div>
+      <div class="grid-preview-item">Audio / sound design</div>
+    </div>
+  </section>
+
+  <section class="about-teaser">
+    <div class="about-teaser-inner" data-reveal>
+      <p class="mono eyebrow">TUNE ELSEWHERE</p>
+      <p class="about-teaser-text">
+        These sounds sit behind some of the work in
+        <a href="animation.html">Create</a> — animation and music, made together.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p class="mono">© 2026 PRINCE — DESIGNED &amp; BUILT BY ME</p>
+  <div class="footer-links">
+    <a href="about.html#contact">Contact</a>
+    <a href="informatics.html#resume">Resume</a>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
